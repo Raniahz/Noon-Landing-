@@ -1,0 +1,294 @@
+
+/*---------- Main Styles ---------*/
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #585B60;
+    font-family: Verdana, sans-serif;
+    background-color: #FFFFFF;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.25em;
+    margin-top: 5%;
+}
+
+/*-------------- Nav Bar ----------*/
+.whole {
+background-color:#f8f9fb;
+}
+.navbar{
+    max-height: 90px;
+    max-width: 100%;
+    border: none;
+    padding-top: 20px;
+    padding-left:50px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 10%;
+    margin-left: 15%
+}
+.container-fluid{
+    color: #1F1F1F;
+}
+
+/*--------- BUTTONS ON TOP---------------*/
+
+.button1{
+    background-color: white;
+    color: #1F1F1F;
+    border: solid 1px #585B60;
+    width: 150px;
+    padding-bottom: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.button2{
+    background-color: #BD9D72;
+    border: none;
+    color: white;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 30px;
+    max-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*--------- NEW GENERATION UI --------------------*/
+
+.bigheading{
+    background-color: #f8f9fb;
+    line-height: 2em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.center {
+    background-color: #f8f9fb;
+    margin: auto;
+    text-align: center;
+}
+.bigheading h1{
+    background-color: #f8f9fb;
+}
+.gen{
+    background-color: #f8f9fb;
+}
+/*--------- FLEX ITEMS (CHECK ICONS) ---------------*/
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+.bottom1,
+.bottom2,
+.bottom3 {
+    padding: 5%;
+}
+/*---- IMAGES ----------------*/
+
+.image1{
+    width: 15%;
+    height: 15%;
+    margin-bottom: 10px;
+}
+.image2{
+    padding-top: 2.5%;
+}
+
+/*------- LIVE EVERY DETAILS ----------------*/
+.fifth {
+    padding-top:5%;
+    padding-bottom:5%;
+    background-color: #f8f9fb;
+    column-gap:10px;
+}
+.col-md-6 h1{
+    text-align: left;
+    margin-bottom: 10%;
+}
+.live{
+    padding-left: 15%;
+    float:left}
+
+.middle{
+  text-align: center;
+}
+.topl{
+    width:50%
+}
+.topr{
+    width:50%
+}
+.bottomr{
+    width:50%
+}
+.bottoml{
+    width:50%
+}
+
+ /*------ AS SEEN ON  ----------------------*/
+
+
+.asseenon {
+    text-align: center;
+}
+.asseenlogos{
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+/* ---------MOST AWESOMELY DESIGNED ---------*/
+
+.designed{
+    background-color: #f8f9fb;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.words{
+    flex: 1;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.pic{
+    flex:1;
+    margin-right: 2.5%;
+}
+.words h1{
+    text-align: left;
+}
+
+/*------- QUOTATION ------------------------*/
+
+.quote{
+    color:white;
+    text-align: center;
+}
+.quote{
+    width:100%;
+    color:white;
+    background-color:#34363a;
+    padding-left:25%;
+    padding-right: 25%;
+    padding-top:5%;
+    padding-bottom: 10%;
+}
+.people {
+margin-top:10%;
+}
+.quotation{
+    margin-bottom: 5%;
+}
+
+/*-------- PRICES --------*/
+.pricing{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin-top:10%;
+}
+h4{
+    color: #bd9e6f;
+}
+.button3{
+    margin-top:12%;
+    background-color: #34363a;
+    border: none;
+    color: white;
+    width: 200px;
+    height:40px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.button4,
+.button5{
+    margin-top:10%;
+    background-color: white;
+    color: #1F1F1F;
+    border: solid 1px #585B60;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.casual,
+.proff,
+.expert{
+    line-height: 2.5em;
+}
+.casual{
+    box-shadow: 0 0 15px 0 darkgray ;
+    width: 25%;
+    height: 430px;
+    padding: 2.5%;
+}
+.proff,
+.expert {
+    box-shadow: 0 0 0 0 white ;
+    width: 25%;
+    height: 430px;
+    padding: 2.5%;
+}
+.pricing h3{
+    font-weight: bold;
+}
+/*----- MORE POSSIBILITY ------*/
+.possibility{
+    background-color:  #34363a;
+    margin-top:10%;
+}
+
+/*------ FREE --------------*/
+.free{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.mail{
+    background-color: white;
+    color: #1F1F1F;
+    border: solid 1px #585B60;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top:3%;
+    margin-bottom: 2%;
+}
+/*-------- FOOTER --------*/
+
+
+.footer1{
+    color:white;
+    text-align: center;
+    padding-top: 3%;
+    background-color: #34363a;
+    font-size: 12px;
+
+}
+.text-muted{
+    color:white;
+    text-align: center;
+}
+.text-muted{color: #585B60}
